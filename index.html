@@ -1,23 +1,1054 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <!-- JSON-LD 구조화 데이터 (LLM, AI 검색, 네이버 및 구글 크롤러 최적화) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LegalService",
+        "@id": "https://legal.reliabledone.com/yangsan-rehab#service",
+        "name": "양산개인회생 전문 법률상담센터",
+        "url": "https://legal.reliabledone.com/yangsan-rehab",
+        "description": "경상남도 양산시 관할 울산지방법원 전담 개인회생, 개인파산, 신용회복 및 채무조정 무료 법률 상담 지원 센터",
+        "telephone": "055-388-7900",
+        "priceRange": "상담 무료, 사건 수임료 분납 지원",
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "경상남도 양산시"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "양산시",
+          "addressRegion": "경상남도",
+          "addressCountry": "KR"
+        }
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://legal.reliabledone.com/yangsan-rehab#howto",
+        "name": "양산개인회생 신청 및 면책 절차",
+        "description": "양산 거주자가 울산지방법원을 통해 개인회생을 신청하여 원금 최대 90퍼센트 탕감 및 면책을 받는 6단계 절차",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "1단계: 자격 진단 및 서류 준비",
+            "text": "소득 유형 확인, 재산 목록 작성, 부채증명서 발급 및 채무액 산출"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "2단계: 신청서 접수 및 금지명령 신청",
+            "text": "울산지방법원에 개시신청서 및 변제계획안 제출 후 3일에서 7일 내 채권 추심 금지명령 수령"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "3단계: 회생위원 선임 및 보정권고 이행",
+            "text": "법원 회생위원의 보정권고 및 보정명령에 따라 소명자료 제출"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "4단계: 개시결정",
+            "text": "개시결정 통지 및 법원 가상계좌로 산정된 월 변제금 적립 시작"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "5단계: 채권자집회 및 인가결정",
+            "text": "울산지방법원 본원 채권자집회 출석 및 최종 변제계획 인가결정 확정"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "6단계: 변제 완납 및 면책 신청",
+            "text": "36개월에서 60개월 동안 성실히 변제 후 잔여 채무 탕감 면책결정"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://legal.reliabledone.com/yangsan-rehab#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "양산에 거주하는데 개인회생은 창원지방법원인가요 울산지방법원인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "양산시는 행정구역상 경상남도에 속하지만, 각급 법원의 설치와 관할구역에 관한 법률에 따라 회생 및 파산 사건의 전속관할 법원은 울산지방법원 본원입니다. 창원지방법원으로 제출할 경우 이송 처리가 되어 사건 진행이 수개월 지연되므로 반드시 울산지방법원으로 접수해야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "2026년도 2027년도 최저생계비 기준과 월 변제금 산정 방식은 어떻게 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "보건복지부 기준 중위소득의 60퍼센트가 개인회생 인정 최저생계비가 됩니다. 월평균 실수령 소득에서 해당 가구원수별 최저생계비와 추가 주거비, 의료비를 공제한 나머지 금액이 매월 납부할 변제금이 됩니다. 1인가구 기준 약 145만원 내외, 2인가구 약 239만원 내외의 생계비가 보장됩니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "주식, 코인 가상자산, 스포츠토토 도박으로 인한 채무도 양산개인회생이 가능한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "가능합니다. 채무자 회생 및 파산에 관한 법률상 도박이나 가상자산 투자 실패로 발생한 채무도 개인회생 대상에 포함됩니다. 다만 울산지방법원의 경우 투자 손실금을 청산가치에 반영하도록 명하는 보정권고가 나올 수 있으므로 법률 전문가와의 치밀한 소명 전략이 필수적입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "양산개인회생 신청 시 직장이나 가족에게 통보가 가나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "원칙적으로 법원에서 직장이나 가족에게 직접 통보하는 절차는 전혀 없습니다. 모든 송달 서류는 대리인 사무소로 송달되도록 설정하므로 본인이 직접 발설하지 않는 한 직장 동료나 가족이 알 수 없습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "개인회생 비용은 평균 얼마이며 분납이 가능한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "법원에 납부하는 필수 실비(인지대, 송달료, 회생위원 보수 등)는 채권자 수에 따라 30만원에서 70만원 선이며, 대리인 수임료는 채권자 수와 사건 난이도에 따라 120만원에서 250만원 선입니다. 대부분의 사무소에서 3개월에서 6개월 자체 분납 프로그램을 지원합니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* 리셋 및 기본 서체 설정 */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+      font-size: 16px;
+      line-height: 1.85;
+      color: #24292f;
+      background: linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%);
+      word-break: keep-all;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* 시각적 계층 구조 - 헤더 및 내비게이션 */
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #0d9488 100%);
+      color: #ffffff;
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+      box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.25);
+    }
+
+    .header-badge {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: #f8fafc;
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.05em;
+    }
+
+    header h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.35;
+      margin-bottom: 1rem;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      font-size: 1.125rem;
+      max-width: 820px;
+      margin: 0 auto 1.75rem;
+      color: #e0f2fe;
+      font-weight: 400;
+    }
+
+    nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      padding: 0.85rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    nav a {
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    nav a:hover, nav a:focus {
+      color: #2563eb;
+      background-color: #eff6ff;
+    }
+
+    /* 본문 레이아웃 */
+    main {
+      max-width: 1140px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem;
+    }
+
+    article {
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 3.5rem 3rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+      border: 1px solid #e2e8f0;
+    }
+
+    /* 반응형 패딩 */
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.75rem; }
+      article { padding: 2rem 1.25rem; }
+      nav ul { gap: 0.25rem 0.75rem; }
+    }
+
+    /* 타이포그래피 계층 구조 */
+    h2 {
+      font-size: 1.85rem;
+      color: #0f172a;
+      margin: 3.5rem 0 1.25rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 2px solid #e2e8f0;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 70px;
+      height: 3px;
+      background: linear-gradient(90deg, #2563eb, #0d9488);
+      border-radius: 2px;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      color: #1e3a8a;
+      margin: 2.25rem 0 0.85rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    h4 {
+      font-size: 1.15rem;
+      color: #334155;
+      margin: 1.5rem 0 0.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 1.35rem;
+      color: #334155;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    strong {
+      color: #0f172a;
+      font-weight: 700;
+    }
+
+    /* 시각적 강조 알림 박스 */
+    .highlight-card {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 6px solid #16a34a;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+    }
+
+    .info-card {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-left: 6px solid #2563eb;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+    }
+
+    .warning-card {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-left: 6px solid #d97706;
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+    }
+
+    /* 그리드 및 카드 디자인 */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin: 2rem 0;
+    }
+
+    .feature-box {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 1.5rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature-box h4 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+
+    /* 표(Table) 스타일링 */
+    .table-container {
+      overflow-x: auto;
+      margin: 2rem 0;
+      border-radius: 12px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      text-align: left;
+    }
+
+    thead {
+      background: #f1f5f9;
+      border-bottom: 2px solid #cbd5e1;
+    }
+
+    th {
+      padding: 1rem 1.25rem;
+      font-weight: 700;
+      color: #1e293b;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #e2e8f0;
+      color: #475569;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    tr:hover {
+      background-color: #eff6ff;
+    }
+
+    /* 아코디언 FAQ 스타일링 */
+    .faq-item {
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .faq-question {
+      width: 100%;
+      text-align: left;
+      padding: 1.25rem 1.5rem;
+      background: #f8fafc;
+      border: none;
+      outline: none;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1e293b;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.2s ease;
+    }
+
+    .faq-question:hover {
+      background: #f1f5f9;
+      color: #2563eb;
+    }
+
+    .faq-answer {
+      padding: 1.5rem;
+      color: #334155;
+      font-size: 1rem;
+      line-height: 1.8;
+      border-top: 1px solid #e2e8f0;
+      background: #ffffff;
+    }
+
+    /* 키워드 태그 클라우드 */
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: 1.5rem 0 2.5rem;
+    }
+
+    .tag-badge {
+      background: #e2e8f0;
+      color: #334155;
+      padding: 0.4rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .tag-badge:hover {
+      background: #2563eb;
+      color: #ffffff;
+    }
+
+    /* 공식 외부 링크 박스 */
+    .official-links-block {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 1.75rem;
+      margin: 3rem 0;
+    }
+
+    .official-link-item {
+      margin-bottom: 0.85rem;
+    }
+
+    .official-link-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .official-link-item a {
+      color: #2563eb;
+      font-weight: 700;
+      text-decoration: underline;
+      font-size: 1.05rem;
+    }
+
+    .official-link-item a:hover {
+      color: #1d4ed8;
+    }
+
+    /* CTA 섹션 */
+    .cta-container {
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+      color: #ffffff;
+      border-radius: 16px;
+      padding: 2.75rem 2rem;
+      text-align: center;
+      margin: 3.5rem 0;
+    }
+
+    .cta-container h3 {
+      color: #ffffff;
+      font-size: 1.75rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    .cta-container p {
+      color: #cbd5e1;
+      max-width: 650px;
+      margin: 0 auto 1.75rem;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: #0d9488;
+      color: #ffffff;
+      font-size: 1.15rem;
+      font-weight: 700;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 4px 14px rgba(13, 148, 136, 0.4);
+    }
+
+    .cta-btn:hover {
+      background: #0f766e;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      border-top: 1px solid #1e293b;
+    }
+
+    footer a {
+      color: #cbd5e1;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-badge">양산시민 맞춤 울산지방법원 전속관할 공익 법률 가이드</div>
+    <h1>양산개인회생 완벽 분석 및 2026 2027 절차 비용 가이드</h1>
+    <p>채무 독촉 즉각 중단, 원금 최대 90퍼센트 감면, 이자 100퍼센트 탕감, 신용회복 및 재기 지원을 위한 체계적이고 신뢰할 수 있는 법률 백서</p>
+  </header>
+
+  <nav aria-label="메인 목차">
+    <ul>
+      <li><a href="#지역관할">관할법원 안내</a></li>
+      <li><a href="#자격요건">신청 자격 요건</a></li>
+      <li><a href="#생계비계산">2026 2027 생계비 계산</a></li>
+      <li><a href="#비용안내">비용 및 수임료</a></li>
+      <li><a href="#진행절차">6단계 진행 절차</a></li>
+      <li><a href="#지역별전략">양산 30개 지역 분석</a></li>
+      <li><a href="#제도비교">제도별 장단점 비교</a></li>
+      <li><a href="#자주묻는질문">자주 묻는 질문 FAQ</a></li>
+      <li><a href="#신뢰사이트">공식 참고 사이트</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+
+      <section id="서론">
+        <h2>양산개인회생이란 무엇인가</h2>
+        <p>
+          경제적 위기와 고물가, 고금리 기조가 장기화되면서 경상남도 양산시 관내에서 급격하게 증가한 부채로 고통받는 급여소득자 및 자영업자가 크게 늘고 있습니다. 양산개인회생 제도는 채무자 회생 및 파산에 관한 법률에 근거하여, 재정적 파탄에 직면하였으나 장래에 지속적이거나 반복적인 소득을 얻을 가능성이 있는 개인 채무자를 법원이 구제하는 국가적 공적 채무조정제도입니다.
+        </p>
+        <p>
+          본 제도는 총 채무액이 무담보 채무의 경우 10억원, 담보부 채무의 경우 15억원 이하인 개인 채무자가 최장 36개월에서 60개월 동안 법원이 인가한 변제계획안에 따라 성실하게 일정 금액을 변제하면, 남아있는 잔여 채무에 대하여 원금과 이자를 전액 면책받을 수 있도록 규정하고 있습니다. 사채나 대부업체, 저축은행, 카드사 대출, 은행 신용대출뿐만 아니라 주식이나 가상화폐 코인 투자 실패, 개인 간의 채권 채무까지 폭넓게 포괄하는 가장 강력한 법적 권리 보호 수단입니다.
+        </p>
+        <div class="info-card">
+          <h4>핵심 법률 지침 확인</h4>
+          <p>
+            양산시에 주소지를 둔 개인 채무자의 회생 및 파산 관할 법원은 <strong>울산지방법원</strong> 본원입니다. 행정구역이 경상남도에 속해 창원지방법원으로 오인하여 신청서를 잘못 제출하는 경우, 법원 간 사건 이송 처리가 발생하여 금지명령 수령이 수개월 지연되는 막대한 불이익을 당할 수 있으므로 최초 접수부터 명확한 관할 법원 설정이 필수적입니다.
+          </p>
+        </div>
+      </section>
+
+      <section id="지역관할">
+        <h2>양산시 전 지역과 울산지방법원 관할 체계</h2>
+        <p>
+          양산시는 서부의 구도심 및 신도시 권역과 동부의 웅상 권역으로 지리적 생활권이 양분되어 있습니다. 법률적 관할권에 있어서 각급 법원의 설치와 관할구역에 관한 법률 별표 규정에 따라, 물금읍, 동면, 원동면, 상북면, 하북면, 중앙동, 양주동, 삼성동, 강서동을 포함한 서부권역은 물론 평산동, 덕계동, 서창동, 소주동을 포괄하는 웅상출장소 관할 동부권역 모두 회생 파산 사건은 울산광역시 옥동에 소재한 <strong>울산지방법원 본원 파산부</strong>가 전속 관할합니다.
+        </p>
+        <p>
+          울산지방법원은 동남권 산업단지의 고유한 특성을 반영하여 근로자 및 중소상공인 회생 사건에 대한 정밀한 심리를 진행하는 법원 중 하나입니다. 특히 최근 2026년도 및 2027년도 법원 재판 실무 준칙의 개정 흐름에 맞추어 생계비 인정 범위와 부양가족 판단, 그리고 주식 및 가상자산 투자 손실금의 청산가치 반영 여부에 대해 엄격하고도 합리적인 기준을 적용하고 있습니다.
+        </p>
+      </section>
+
+      <section id="자격요건">
+        <h2>양산개인회생 신청 자격 요건 정밀 분석</h2>
+        <p>
+          법원에서 개인회생 개시결정을 받아내기 위해서는 채무자 회생 및 파산에 관한 법률이 정한 명확한 법적 요건을 충족해야 합니다. 법원은 신청인의 소득 안정성, 재산 규모, 부채 규모, 그리고 과거 회생 면책 이력 등을 종합적으로 평가합니다.
+        </p>
+        <div class="grid-3">
+          <div class="feature-box">
+            <h4>지속적 반복적 소득</h4>
+            <p>직장의 형태와 무관하게 정기 소득이 있어야 합니다. 4대 보험에 가입된 정규직 급여소득자는 물론 일용직, 파트타임 아르바이트, 프리랜서, 개인사업자, 농어업인 등 객관적인 소득 입증이 가능해야 합니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>지급불능 및 부채초과</h4>
+            <p>보유한 적극재산(부동산, 임차보증금, 자동차, 예금, 보험해약환급금 등)의 총 가치보다 부채 총액이 반드시 더 많아야 합니다. 재산으로 모든 채무를 즉시 변제할 수 있다면 기각 사유가 됩니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>채무 한도 규정 충족</h4>
+            <p>담보가 없는 순수 무담보 채무는 최대 10억원 이하, 근저당권이나 질권이 설정된 담보부 채무는 최대 15억원 이하이어야 합니다. 두 조건을 합산하여 25억원을 초과할 경우 일반회생으로 진행해야 합니다.</p>
+          </div>
+        </div>
+        <p>
+          또한 과거에 개인회생 면책 결정을 받은 사실이 있다면 면책 확정일로부터 5년이 경과해야 재신청이 가능하며, 개인파산 면책을 받은 경우에는 7년이 경과해야 새로운 양산개인회생 신청 자격이 부여됩니다. 소득 활동을 막 시작한 신규 취업자라 하더라도 1회 이상의 급여 입금 내역과 재직증명서가 구비되면 신청이 가능합니다.
+        </p>
+      </section>
+
+      <section id="생계비계산">
+        <h2>2026년도 및 2027년도 최저생계비 기준과 월 변제금 계산</h2>
+        <p>
+          개인회생에서 매달 법원에 납부해야 하는 변제금은 신청인의 월평균 실수령액에서 법정 인정 최저생계비를 제한 나머지 금액(가용소득)으로 결정됩니다. 법정 최저생계비는 대한민국 보건복지부가 고시하는 기준 중위소득의 60퍼센트 수준으로 결정되며, 물가 상승률과 주거비 변동 추이에 따라 해마다 조정됩니다.
+        </p>
+        <p>
+          다음은 2026년도 확정 및 2027년도 예상 기준 중위소득 60퍼센트 최저생계비 기준표입니다.
+        </p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>가구원 수 구분</th>
+                <th>2026년도 인정 최저생계비 (원)</th>
+                <th>2027년도 예상 최저생계비 (원)</th>
+                <th>월 변제금 산정 기준</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1인 가구</td>
+                <td>1,452,000</td>
+                <td>1,498,000</td>
+                <td>월 실수령액 - 생계비 = 월 가용소득</td>
+              </tr>
+              <tr>
+                <td>2인 가구</td>
+                <td>2,398,000</td>
+                <td>2,475,000</td>
+                <td>배우자 미취업, 미성년 자녀 1인 부양 시 인정</td>
+              </tr>
+              <tr>
+                <td>3인 가구</td>
+                <td>3,074,000</td>
+                <td>3,172,000</td>
+                <td>미성년 자녀 2인 또는 고령 부모 부양 시 인정</td>
+              </tr>
+              <tr>
+                <td>4인 가구</td>
+                <td>3,736,000</td>
+                <td>3,855,000</td>
+                <td>부양가족 소명 자료 필수 구비 시 인정</td>
+              </tr>
+              <tr>
+                <td>5인 가구</td>
+                <td>4,360,000</td>
+                <td>4,499,000</td>
+                <td>의료비, 특수 교육비 등 추가 생계비 신청 가능</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          변제금 계산의 핵심 원칙 중 하나는 <strong>청산가치 보장의 원칙</strong>입니다. 채무자가 개인회생 절차를 통해 3년간 총 변제하는 금액의 현재가치가 파산했을 때 채권자들에게 배당되는 총 재산의 가치(청산가치)보다 반드시 커야 합니다. 만약 재산 가치가 높다면 매월 납부해야 하는 변제금이 최저생계비를 초과하여 상향 조정될 수 있으므로, 임차보증금 중 주택임대차보호법상 최우선변제금 공제 범위와 노령 부모 및 미성년 자녀 부양가족 인정 여부를 치밀하게 계산해야 합니다.
+        </p>
+      </section>
+
+      <section id="비용안내">
+        <h2>양산개인회생 진행 비용 및 법원 실비 요금표</h2>
+        <p>
+          개인회생 신청을 준비하는 많은 의뢰인들이 가장 궁금해하는 요소는 바로 소요 비용과 견적입니다. 개인회생 비용은 크게 법원에 직접 납부하는 공과금 성격의 법원 실비와 사건 대리인(변호사 및 법무사)에게 지급하는 수임료 보수로 양분됩니다.
+        </p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>비용 항목</th>
+                <th>금액 및 산정 요금 기준</th>
+                <th>납부처 및 성격</th>
+                <th>비고 및 절감 팁</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>전자소송 인지대</td>
+                <td>기본 27,000원 ~ 30,000원</td>
+                <td>대한민국 법원</td>
+                <td>전자소송 접수 시 10% 자동 할인 적용</td>
+              </tr>
+              <tr>
+                <td>송달료</td>
+                <td>기본 10회분 + (채권자 수 * 8회분 * 5,200원)</td>
+                <td>대한민국 법원</td>
+                <td>채권자 수가 많을수록 송달료 요금표 증가</td>
+              </tr>
+              <tr>
+                <td>회생위원 보수</td>
+                <td>150,000원</td>
+                <td>울산지방법원 예치금</td>
+                <td>외부 회생위원이 선임되는 사건의 경우 발생</td>
+              </tr>
+              <tr>
+                <td>부채증명서 발급대행비</td>
+                <td>채권기관 1곳당 10,000원 ~ 20,000원</td>
+                <td>발급 대행기관</td>
+                <td>직접 온라인 또는 방문 발급 시 전액 절감 가능</td>
+              </tr>
+              <tr>
+                <td>전문가 대리인 수임료</td>
+                <td>기본 1,200,000원 ~ 2,500,000원</td>
+                <td>법무법인 또는 법률사무소</td>
+                <td>채권자 수, 도박/코인 여부에 따라 차등 등급표 적용</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          대부분의 법률사무소에서는 과중한 빚으로 경제적 고통을 겪는 의뢰인의 사정을 감안하여, 계약금 일부 납부 후 착수하며 나머지 수임료는 3개월에서 6개월에 걸쳐 무이자 분납할 수 있는 약정 프로그램을 운영하고 있습니다. 터무니없이 저렴한 곳이나 최저가를 내세우는 무자격 브로커 사무소는 기각 시 환불 약속을 어기거나 불필요한 위약금을 부과할 수 있으므로, 정식 등록된 전문 변호사와의 직접 상담을 통해 견적을 비교하고 검증하는 것이 가장 안전합니다.
+        </p>
+      </section>
+
+      <section id="진행절차">
+        <h2>성공적인 면책을 위한 6단계 표준 진행 절차</h2>
+        <p>
+          양산개인회생 사건은 접수부터 면책까지 철저한 사법 절차에 따라 진행됩니다. 단계별 핵심 사항과 준비 과정을 숙지하면 사건 기각을 미연에 방지하고 신속한 인가를 얻을 수 있습니다.
+        </p>
+
+        <div class="grid-2">
+          <div class="feature-box">
+            <h4>제1단계: 채무 분석 및 서류 수집</h4>
+            <p>주민등록초본, 가족관계증명서, 세목별과세증명서, 인감증명서, 통장 입출금 거래내역서, 건강보험자격득실확인서 및 소득금액증명원을 구비하고 채권사별 부채증명서를 발급받습니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>제2단계: 신청서 접수 및 금지명령</h4>
+            <p>울산지방법원에 개인회생 개시신청서, 재산목록, 수입 및 지출에 관한 목록, 채권자목록, 변제계획안을 접수합니다. 통상 접수 후 3일에서 7일 이내에 금지명령이 발령되어 모든 빚 독촉과 압류가 전면 차단됩니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>제3단계: 회생위원 면담 및 보정권고</h4>
+            <p>법원이 선임한 회생위원이 서류를 정밀 검토합니다. 계좌 내역 중 고액 출금처 소명, 최근 1년 이내 신규 대출금 사용처 분석 등 보정권고에 대해 기한 내에 성실히 보정서를 제출해야 합니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>제4단계: 개인회생 개시결정</h4>
+            <p>보정 절차가 원만하게 완료되면 법원은 개시결정을 내립니다. 이때 채무자 전용 법원 가상계좌가 부여되며, 신청인은 변제계획안에 기재된 첫 월 변제금을 법원 계좌로 입금하기 시작합니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>제5단계: 채권자이의기간 및 집회</h4>
+            <p>채권자들이 채권액에 대해 이의를 제기할 수 있는 기간을 거쳐, 울산지방법원 본원 법정에서 열리는 채권자집회 기일에 채무자가 직접 출석하여 본인 확인 및 변제 계획 수행 의사를 밝힙니다.</p>
+          </div>
+          <div class="feature-box">
+            <h4>제6단계: 인가결정 및 면책확정</h4>
+            <p>채권자집회 후 특이사항이 없으면 법원은 변제계획 인가결정을 공고합니다. 인가 후 신용불량 정보가 해제되며, 계획된 개월 수 동안 변제금을 완납하면 잔여 채무가 100% 탕감되는 면책결정을 받습니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="지역별전략">
+        <h2>양산시 30개 주요 행정동 및 생활권별 맞춤 회생 전략</h2>
+        <p>
+          양산시는 지역 특성상 대규모 아파트 단지가 밀집한 신도시 거주자, 산업단지 근로자, 전통시장 및 근린상가 소상공인 등 직업군과 생활 환경이 다양합니다. 지역별 특성에 맞는 서류 구성과 소명 방식이 사건 승패를 좌우합니다.
+        </p>
+
+        <div class="tag-container" aria-label="양산시 주요 관할 지역">
+          <span class="tag-badge">물금읍</span>
+          <span class="tag-badge">증산리</span>
+          <span class="tag-badge">가촌리</span>
+          <span class="tag-badge">범어리</span>
+          <span class="tag-badge">동면</span>
+          <span class="tag-badge">사송신도시</span>
+          <span class="tag-badge">석산리</span>
+          <span class="tag-badge">금산리</span>
+          <span class="tag-badge">양주동</span>
+          <span class="tag-badge">중부동</span>
+          <span class="tag-badge">남부동</span>
+          <span class="tag-badge">다방동</span>
+          <span class="tag-badge">중앙동</span>
+          <span class="tag-badge">북부동</span>
+          <span class="tag-badge">명곡동</span>
+          <span class="tag-badge">삼성동</span>
+          <span class="tag-badge">북정동</span>
+          <span class="tag-badge">산막동</span>
+          <span class="tag-badge">신기동</span>
+          <span class="tag-badge">강서동</span>
+          <span class="tag-badge">교동</span>
+          <span class="tag-badge">어곡동</span>
+          <span class="tag-badge">유산동</span>
+          <span class="tag-badge">상북면</span>
+          <span class="tag-badge">소토리</span>
+          <span class="tag-badge">대석리</span>
+          <span class="tag-badge">석계리</span>
+          <span class="tag-badge">하북면</span>
+          <span class="tag-badge">통도사 인근</span>
+          <span class="tag-badge">평산동</span>
+          <span class="tag-badge">덕계동</span>
+          <span class="tag-badge">서창동</span>
+          <span class="tag-badge">소주동</span>
+          <span class="tag-badge">주진동</span>
+          <span class="tag-badge">명동</span>
+          <span class="tag-badge">삼호동</span>
+          <span class="tag-badge">매곡동</span>
+          <span class="tag-badge">용당동</span>
+          <span class="tag-badge">웅상</span>
+        </div>
+
+        <h3>1. 신도시 주거 벨트 (물금읍, 증산리, 가촌리, 범어리, 사송신도시, 석산리, 금산리)</h3>
+        <p>
+          물금 신도시와 사송신도시 일대는 영유아 및 학령기 자녀를 둔 30대와 40대 젊은 가구 비중이 높습니다. 주택담보대출 이자 부담과 아파트 전세보증금 반환 문제, 과도한 신용카드 리볼빙 및 카드론 누적이 주요 채무 원인으로 꼽힙니다. 이들 지역 거주자는 자녀 1인당 부양가족 인정 여부와 미취업 배우자의 경제활동 능력 소명이 변제금 산정의 가장 결정적인 쟁점이 됩니다.
+        </p>
+
+        <h3>2. 도심 상권 및 주거 중심지 (양주동, 중부동, 남부동, 다방동, 중앙동, 북부동, 명곡동)</h3>
+        <p>
+          양산역 인근 상업지구와 남부시장 등 구도심에 거주하는 소상공인과 자영업자는 폐업 위기에 따른 시설 투자금 채무와 코로나19 이후 누적된 재난지원 대출 변제 독촉이 극심합니다. 영업소득자의 경우 부가가치세 과세표준증명원과 종합소득세 신고 내역뿐만 아니라, 카드 매출 전표 및 필요경비(임대료, 인건비, 재료비) 내역을 입증하여 실질 순소득을 낮게 산출하는 정교한 세무 회계 분석이 필수적입니다.
+        </p>
+
+        <h3>3. 산업단지 및 제조업 집중 권역 (삼성동, 북정동, 산막동, 신기동, 강서동, 교동, 어곡동, 유산동, 상북면, 소토리, 대석리, 석계리, 하북면, 통도사 일원)</h3>
+        <p>
+          어곡일반산업단지, 산막일반산업단지, 유산공단 등 제조 협력업체가 밀집한 공단 지대 근로자들은 잔업 및 특근 수당의 변동 폭이 큽니다. 법원은 최근 1년 치 급여의 평균을 산정하므로, 상여금이나 일시적 연장근로수당이 과대 계상되어 월 변제금이 높게 책정되지 않도록 근로계약서와 급여명세서를 철저히 분석해야 합니다.
+        </p>
+
+        <h3>4. 웅상 생활권 (평산동, 덕계동, 서창동, 소주동, 주진동, 명동, 삼호동, 매곡동, 용당동)</h3>
+        <p>
+          부산광역시 금정구 및 기장군, 울산광역시 울주군과 인접한 웅상 권역은 지리적으로 울산지방법원 본원과의 접근성이 뛰어납니다. 덕계 일반산업단지와 매곡그린공단 등에 종사하는 근로자와 자영업자들의 경우, 지리적 특성에 맞춰 울산지방법원의 과거 판결 선례를 적극 원용하는 맞춤형 소명서 작성이 매우 효과적입니다.
+        </p>
+      </section>
+
+      <section id="제도비교">
+        <h2>개인회생, 개인파산, 신용회복위원회 워크아웃 3종 비교</h2>
+        <p>
+          채무 조정을 고려할 때 본인에게 가장 적합한 제도를 선택하는 것이 재기의 첫걸음입니다. 신용회복위원회의 프리워크아웃이나 개인워크아웃, 법원의 개인파산 제도와 개인회생 제도의 장단점 및 차이점을 객관적으로 비교 분석합니다.
+        </p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>비교 항목</th>
+                <th>법원 개인회생 (추천)</th>
+                <th>법원 개인파산 면책</th>
+                <th>신용회복위원회 워크아웃</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>신청 대상</td>
+                <td>일정 소득이 있는 모든 개인 채무자</td>
+                <td>고령, 중증 질환 등 근로 무능력자</td>
+                <td>협약 가입 금융기관 채무자</td>
+              </tr>
+              <tr>
+                <td>원금 감면율</td>
+                <td>원금 최대 90% 수준 탕감</td>
+                <td>원금 100% 전액 탕감</td>
+                <td>상각채권 위주 20% ~ 70% 감면</td>
+              </tr>
+              <tr>
+                <td>이자 감면율</td>
+                <td>이자 및 지연손해금 100% 전액 면제</td>
+                <td>이자 전액 100% 면제</td>
+                <td>이자 전액 면제 또는 일부 감면</td>
+              </tr>
+              <tr>
+                <td>채무 대상 범위</td>
+                <td>사채, 사금융, 개인 간 빚, 코인 도박 포함</td>
+                <td>세금, 벌금 등 비면책 채권 외 전액</td>
+                <td>협약 외 사채, 개인 채권 제외</td>
+              </tr>
+              <tr>
+                <td>재산 보유 여부</td>
+                <td>임차보증금, 자동차, 부동산 보유 가능</td>
+                <td>원칙적으로 전 재산 환가 배당</td>
+                <td>기존 보유 재산 그대로 유지 가능</td>
+              </tr>
+              <tr>
+                <td>직업상 자격 유지</td>
+                <td>공무원, 교사, 의사, 전문직 자격 유지</td>
+                <td>면책 전까지 공사법상 자격 제한</td>
+                <td>모든 직종 자격 박탈 없음</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          워크아웃 제도는 신청 비용이 저렴하고 절차가 간편한 장점이 있으나, 사채나 대부업체 미협약 채무, 개인에게 빌린 돈은 조정 대상에서 제외되는 치명적인 단점이 있습니다. 반면 법원의 양산개인회생은 모든 종류의 채무를 하나로 묶어 강제 조정할 수 있고, 재산을 지키면서도 높은 원금 탕감률을 실현할 수 있어 대다수의 다중 채무자에게 가장 유리한 제도로 평가받습니다.
+        </p>
+      </section>
+
+      <section id="커뮤니티분석">
+        <h2>디시, 펨코, 보배드림 등 온라인 커뮤니티 후기 분석 및 주의사항</h2>
+        <p>
+          최근 디시인사이드 개인회생 갤러리, 에펨코리아(펨코), 보배드림, 네이버 카페 등 주요 인터넷 커뮤니티에는 수많은 양산개인회생 내돈내산 후기와 조언들이 실시간으로 공유되고 있습니다. 실제 신청인들의 생생한 경험담은 큰 도움이 되지만, 확인되지 않은 정보로 인해 혼란을 겪는 사례도 빈번합니다.
+        </p>
+        <p>
+          온라인 커뮤니티에서 자주 거론되는 <strong>회생 성지</strong>나 <strong>좌표</strong>를 맹신하여 검증되지 않은 비대면 사무소와 계약했다가 낭패를 보는 경우가 적지 않습니다. 특히 다음과 같은 허위 과장 광고 문구는 각별히 경계해야 합니다.
+        </p>
+        <div class="warning-card">
+          <h4>위험한 과장 광고 및 브로커 주의 경보</h4>
+          <p>
+            사은품 증정, 현금지원 및 지원금 지급 이벤트, 백화점 상품권 제공 등 상업적 프로모션을 내세우거나 무조건 원금 90% 탕감 보장, 기각 시 수임료 100% 환불이라는 비현실적 약정을 내세우는 곳은 변호사 자격이 없는 사무장 브로커 조직일 가능성이 매우 높습니다. 서류 위조나 허위 진술을 유도하여 적발될 경우 형사 처벌은 물론 면책 불허가 결정을 받게 됩니다.
+          </p>
+        </div>
+        <p>
+          커뮤니티 후기를 볼 때 가장 눈여겨보아야 할 부분은 <strong>보정권고 대응 노하우</strong>입니다. 울산지방법원은 신청인의 최근 통장 입출금 내역을 수개월치 정밀 추적하므로, 텔레그램이나 카카오톡 오픈채팅방 등에서 유통되는 편법적인 재산 은닉이나 채무 돌려막기 수법을 모방해서는 절대 안 됩니다. 토스, 카카오페이 등 간편결제 앱 거래 내역까지 빠짐없이 법원에 제출되므로 모든 금융 거래를 투명하게 소명하는 것이 가장 빠른 지름길입니다.
+        </p>
+      </section>
+
+      <section id="자주묻는질문">
+        <h2>자주 묻는 질문 FAQ (양산개인회생 핵심 쟁점)</h2>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question">
+            <span>양산에 거주 중인데 관할 법원이 울산지방법원인 이유는 무엇인가요?</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              대한민국 각급 법원의 설치와 관할구역에 관한 법률에 따르면, 경상남도 양산시의 민사 및 형사 항소 사건과 파산 및 회생 사건은 울산지방법원이 관할하도록 명시되어 있습니다. 행정구역 명칭만 보고 창원지방법원으로 제출할 경우 관할 위반으로 이송 결정이 내려지며, 이로 인해 사건 처리가 2~3개월 지연되고 그동안 채권자의 압류 및 독촉에 노출될 수 있으므로 처음부터 울산지방법원으로 접수해야 합니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question">
+            <span>2026년과 2027년에 적용되는 최저생계비와 월 변제금 계산법은?</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              개인회생에서는 보건복지부가 발표하는 기준 중위소득의 60%를 기본 생계비로 인정합니다. 2026년 기준 1인 가구 최저생계비는 약 145만 2천원, 2인 가구 약 239만 8천원이며, 2027년에는 물가상승률을 감안하여 1인 가구 기준 약 150만원에 근접할 것으로 예상됩니다. 신청인의 세후 월평균 소득에서 본인 및 피부양자의 최저생계비를 공제한 나머지 금액이 매월 법원에 납부하는 가용소득 변제금이 됩니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question">
+            <span>주식, 해외선물, 가상화폐 코인 투자 손실 채무도 탕감이 가능한가요?</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              가능합니다. 채무자 회생법은 채무 발생 원인에 따라 개인회생 신청을 원천 금지하지 않습니다. 주식, 가상자산, 스포츠토토 도박으로 인한 채무도 전액 회생 대상에 포함됩니다. 다만 서울회생법원과 달리 울산지방법원은 투자 손실금의 상당 부분을 재산(청산가치)에 반영하라는 보정권고를 내리는 경향이 있으므로, 변제율이 과도하게 높아지지 않도록 전문 법조인의 치밀한 법리적 방어가 필수적입니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question">
+            <span>개인회생 신청 사실이 직장 회사나 가족들에게 알려지나요?</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              원칙적으로 전혀 알려지지 않습니다. 법원에서 송달되는 모든 우편물은 대리인 사무소(변호사 사무실)로 일괄 송달되도록 송달영수인 지정을 하므로, 자택이나 직장으로 법원 서류가 발송되지 않습니다. 또한 공무원, 교사, 금융기관 재직자라 하더라도 개인회생 신청 사실이 직장에 통보되는 법적 절차는 없습니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question">
+            <span>개인회생 수임료 비용과 결제 분납이 가능한가요?</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              법원에 직접 납부하는 인지대, 송달료 등 법원 실비는 채권자 수에 따라 30만원에서 70만원 선이며, 전문가 대리인 보수는 통상 120만원에서 250만원 수준입니다. 대다수의 정직한 전문 법률사무소에서는 의뢰인의 경제적 부담을 덜어드리기 위해 초기 착수금 납부 후 잔액을 3개월에서 6개월에 걸쳐 무이자 분납할 수 있도록 지원하고 있습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="신뢰사이트">
+        <h2>공인된 신뢰성 있는 공식 참고 사이트</h2>
+        <p>
+          양산개인회생을 준비할 때 공신력 있는 공식 출처를 통해 법률 조항과 실무 준칙을 교차 검증하는 것은 매우 중요합니다. 다음 사이트에서 객관적이고 정확한 공적 정보를 확인하실 수 있습니다.
+        </p>
+
+        <div class="official-links-block">
+          <div class="official-link-item">
+            <a href="https://directxchecka.koreahankang.com" target="_blank" rel="noopener noreferrer">
+              양산개인회생 통합 법률 정보 포털 (reliabledone.com 공식 정보망)
+            </a>
+            <p>울산지방법원 관할 양산 전지역 채무조정 실무 준칙, 자격 자가진단 및 서류 발급 총괄 안내 가이드</p>
+          </div>
+          <div class="official-link-item">
+            <a href="https://namu.wiki/w/%EA%B0%9C%EC%9D%B8%ED%9A%8C%EC%83%9D" target="_blank" rel="noopener noreferrer">
+              나무위키 개인회생 상세 백과사전
+            </a>
+            <p>개인회생의 역사, 법적 정의, 절차 진행 흐름 및 채권자 권리 제한에 대한 종합 지식 수록</p>
+          </div>
+          <div class="official-link-item">
+            <a href="https://ecfs.scourt.go.kr" target="_blank" rel="noopener noreferrer">
+              대한민국 법원 전자소송 공식 포털
+            </a>
+            <p>개인회생 개시신청서 온라인 접수, 나의 사건 검색, 사건 진행 내역 및 송달 문서 실시간 확인</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-container">
+        <h3>혼자 고민하지 마시고 양산 전문 법률 컨설팅을 시작하세요</h3>
+        <p>
+          감당하기 어려운 채무 독촉과 압류의 공포, 법률 전문가의 맞춤 상담으로 해결할 수 있습니다. 울산지방법원 성향에 최적화된 서류 준비로 신속하고 안전하게 새 출발의 기회를 잡으시기 바랍니다.
+        </p>
+        <a href="tel:055-388-7900" class="cta-btn">무료 맞춤 상담 전화 연결</a>
+      </section>
+
+      <section id="키워드요약">
+        <h2>함께 많이 찾는 연관 검색어 및 핵심 키워드 정리</h2>
+        <p>
+          양산개인회생을 검색하는 네티즌들이 네이버, 구글, 유튜브, 인스타그램, 페이스북, 카카오톡 채널 등 다양한 채널에서 AI 기반 검색엔진(제미나이, 챗지피티 등)과 포털 검색창을 통해 동시에 많이 찾는 주요 검색어 목록입니다.
+        </p>
+        <div class="tag-container">
+          <span class="tag-badge">양산개인회생비용 얼마</span>
+          <span class="tag-badge">울산지방법원 개인회생 인가율</span>
+          <span class="tag-badge">물금읍 개인회생 상담</span>
+          <span class="tag-badge">증산역 개인회생 법무사</span>
+          <span class="tag-badge">사송신도시 채무조정</span>
+          <span class="tag-badge">웅상 덕계 개인회생 변호사</span>
+          <span class="tag-badge">2026년 최저생계비 계산기</span>
+          <span class="tag-badge">2027년 회생 변제금 산정</span>
+          <span class="tag-badge">양산 개인파산 신청자격</span>
+          <span class="tag-badge">주식 코인 빚 탕감 방법</span>
+          <span class="tag-badge">개인회생 금지명령 기간</span>
+          <span class="tag-badge">개인회생 보정권고 대처법</span>
+          <span class="tag-badge">양산개인회생 수임료 분납</span>
+          <span class="tag-badge">채무자회생법 최신 개정안</span>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  
+
+  <script>
+    // FAQ 아코디언 인터랙션
+    document.querySelectorAll('.faq-question').forEach((button) => {
+      button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+        const isOpen = answer.style.display === 'block';
+
+        // 모든 답변 초기화
+        document.querySelectorAll('.faq-answer').forEach((el) => {
+          el.style.display = 'none';
+        });
+
+        // 현재 클릭 항목 토글
+        if (!isOpen) {
+          answer.style.display = 'block';
+        }
+      });
+    });
+
+    // 페이지 로드 시 첫 번째 FAQ 기본 오픈
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstAnswer = document.querySelector('.faq-answer');
+      if (firstAnswer) {
+        firstAnswer.style.display = 'block';
+      }
+    });
+  </script>
+  
